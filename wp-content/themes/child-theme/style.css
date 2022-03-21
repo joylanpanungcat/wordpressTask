@@ -1,0 +1,1287 @@
+/*
+ Theme Name:   Twenty NineTeen Child
+ Theme URI:   https://wordpress.org/themes/twentynineteen/
+ Description:  Twenty Nineteen Child Theme
+ Author:       Syntactics
+ Author URI:   http://syntactics.com
+ Template:     twentynineteen
+ Version:      2.1.7
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentynineteenchild
+*/
+
+
+@media screen and (max-width: 1920px) {
+    .navbar-first{
+        background-color: #025ca8;
+       /* //  background-color: #aacdeb; */
+        padding: 6px;
+    }
+    .navbar-first .left{
+       margin-left: 208px;
+   }
+    .navbar-first .right{
+       margin-right: 208px;
+   }
+   
+    .navbar-first  .left span{
+        color: #fff;
+        font-size: 14px;
+        font-family: "Poppins";
+    }
+    .navbar-first .right{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 206px;
+    }
+    .navbar-first .right > div {
+        margin-right: 40px;
+    }
+    .navbar-first .right button{
+       font-size: 12px;
+       font-family: "Poppins";
+       color: rgb(255, 255, 255);
+       font-weight: bold;
+       text-transform: uppercase;
+       width: 152px;
+       height: 40px;
+       text-align: left;
+       padding: 10px;
+       background-color: #31b1e1;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+    }
+    .navbar-first .right button i{
+        font-size: 20px;
+        margin-right: 10px;
+   
+    }
+    .navbar-first .icon > i {
+       font-size: 18px;
+       color: #fff;
+       margin-right: 15px;
+       margin-top: 10px;
+    }
+   .navbar-first .right .icon{
+       margin-top: 5px;
+       margin-right: 25px;
+     
+   }
+   .navbar-first .phone {
+       margin-top: 10px;
+   }
+    .navbar-first .phone span small {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "Poppins";
+        color: #49c5f4;
+    }
+    .navbar-first .phone i{
+     
+       color: #fff;
+    }
+    .navbar-first .phone span {
+        color: #fff;
+        font-weight: bold;
+        font-family: 'Poppins SemiBold';
+       font-size: 17px;
+        font-family: 'Poppins SemiBold';
+    }
+   
+    .navbar-second{
+       padding: 21px;
+       background-color: #fff;
+       position: sticky;
+       box-shadow: 1px 2px 14px #163f81;
+       top: 30px;
+    }
+   
+    .navbar-second .nav-right{
+        display: flex;
+    }
+    .navbar-second .navbar-brand {
+       margin-left: 190px;
+    }
+    .navbar-second .navbar-collapse{
+       font-size: 17px;
+       font-family: 'Poppins SemiBold';
+      
+    }
+    .navbar-second .navbar-collapse ul  {
+       margin-left: 45px;
+    }
+    .navbar-second .navbar-collapse ul > li  {
+       margin-left: 20px;
+    }
+    .navbar-second .navbar-collapse .nav-item >  a{
+        color: #212529;
+        text-decoration: none;
+    }
+   .navbar-second .flex{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+    .navbar-second .right {
+       margin-left: 208px;
+       
+    }
+    .search {
+       position: relative;
+       margin-right: 20px;
+   }
+   
+   .search input {
+       height: 60px;
+       text-indent: 25px;
+       border: 2px solid #d6d4d4;
+       width: 300px;
+   
+   }
+   
+   .search .fa-search {
+       position: absolute;
+       top: 20px;
+       left: 260px;
+       font-size: 20px;
+       color: #025ca8;
+   }
+   .navbar-second .navbar-collapse img {
+       padding-right: 183px;
+   }
+   .banner-main{
+       background-image: url('http://localhost/wordpress/wp-content/uploads/2022/03/background-banner.jpg');
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+      
+   }
+   .banner {
+       display: flex;
+       align-items: center;
+       padding: 75px 336px 69px;
+       column-gap: 84px;
+   }
+   .banner .title{
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+}
+   
+   .banner h5 {
+       font-size: 13px;
+       background-color: #fff;
+       padding: 5px 9px;
+       line-height: 1.2;
+       font-weight: bold;
+       width: 149px;
+       border-radius: 7%;
+       color: #025ca8;
+   }
+   .banner h1{
+    font-size: 61px;
+    font-family: "Poppins SemiBold";
+    font-weight: bolder;
+    margin-top: 18px;
+    letter-spacing: 0.49px;
+    color: #fff;
+   }
+   .banner p{
+       line-height: 1.476;
+       text-align: left;
+       font-size: 21px;
+       font-family: 'Poppins';
+       margin-top: 18px;
+       letter-spacing: 0.5px;
+       color: #fff;
+   }
+   .banner .button-group{
+       margin-top: 40px;
+   }
+   .banner .button-group > button {
+       background-color: #09ffff;
+       padding: 20px;
+       align-items: center;
+       color: #ffff;
+       font-size: 16px;
+       font-family: 'Poppins Bold';
+       width: 220px;
+   }
+   .banner .images{
+   position: relative;
+   width: 53%;
+   }
+   .banner .images .thermal{
+       position: absolute;
+       top: 134px;
+       left: 380px;
+   }
+  
+   .banner .button-2{
+       margin-left: 12px;
+   }
+   .about{
+       padding: 150px 199px 151px;
+       margin-left: 17px;
+       display: flex;
+   }
+   .about .content{
+       margin-left: 117px;
+       margin-top: 22px;
+       margin-bottom: 0;
+   }
+   .about h5{
+       font-size: 33px;
+   }
+   .about h1{
+    font-size: 46px;
+    margin-top: 8px;
+    font-family: 'Poppins SemiBold';
+    letter-spacing: 3.5px;
+   }
+   .about .content > div{
+       margin-top: 27px;
+       width: 86%;
+   }
+   .about .content span{
+       margin-top: 5px;
+       margin-left: 17px;
+       letter-spacing: 0.4px;
+       font-size: 16px;
+       font-family: "Poppins";
+   }
+   .about .content button {
+        background-color: #31b1e1;
+        padding: 16px;
+        width: 284px;
+        margin-top: 9px;
+        color: #fff;
+    }
+   #btn-back-to-top {
+       position: fixed;
+       bottom: 20px;
+       right: 20px;
+       display: none;
+       background-color: #31b1e1;
+       color: #fff;
+       z-index: 1;
+     }
+   .featured-categories{
+       background-color: white;
+       box-shadow: 0px 15px 30px 0px rgb(0 0 0 / 5%);
+       margin-top: -142px;
+       margin-left: 207px;
+       width: 1499px;
+       height: 579px;
+       z-index: 208;
+   
+   }
+   .featured-categories .card{
+       background-color: #edf8f9;
+       padding: 10px;
+       margin-top: 17px;
+       width: 98%;
+       margin-left: 4px;
+       height: 260px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .featured-categories .card .sales{
+       width: 212px;
+       left: 39px;
+       top: 37px;
+       position: absolute;
+       z-index: 1;
+   }
+   .featured-categories .card .sales-image .thermal-2{
+       margin-left: 82px;
+   }
+   .featured-categories .card .sales-image .Isolation{
+       margin-left: 20px;
+       margin-top: -19px;
+   }
+   .featured-categories .card .sales-image .Tracheostomy{
+       margin-left: 41px;
+   }
+   .featured-categories .card  .Laryngeal{
+       width: 100%;
+       height: 202px;
+       margin-left: 18px;
+   }
+   
+   .featured-categories .card .sales h5{
+       font-size: 20px;
+       font-family: 'Poppins';
+       color:#025ca8;
+   }
+   .featured-categories .card .sales h1{
+       font-size: 29px;
+       font-family: 'Poppins Bold';
+   }
+   .featured-categories .card .sales button{
+       background-color: #31b1e1;
+       color: #fff;
+       margin-top: 5px;
+       padding: 8px;
+       width: 113px;
+   }
+   .featured-categories .card .sales-image {
+        width: 200px;
+        left: 235px;
+        top: 27px;
+        position: absolute;
+   }
+   .products{
+       width: 1499px;
+       margin-left: 11.7%;
+       margin-top: 146px;
+       width: 1499px;
+       z-index: 208;
+   }
+   .products .right{
+       display: flex;
+   }
+   .products .featured{
+       font-size: 30px;
+       font-family: 'Poppins SemiBold';
+       color: #025ca8;
+       letter-spacing: 1px;
+       margin-bottom: 0;
+   }
+   .products .heading {
+       border-bottom: 2px solid #cccccc;
+       height: 79px;
+   }
+   .products .left h1{
+       font-size: 50px;
+       font-family: 'Poppins SemiBold';
+       letter-spacing: 1px;
+   }
+   .products .heading .right .button > span {
+       font-size: 17px;
+       margin-right: 20px;
+       letter-spacing: 1px;
+       font-family: 'Poppins Bold';
+   }
+   .products .heading .right .button > i {
+       margin-right: 12px;
+   }
+   .products .heading .right .active{
+       color: #31b1e1;
+   }
+   
+   .featured-image {
+       display: flex;
+       align-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+       margin-top: 59px;
+       margin-left: 1px;
+   }
+   
+   .featured-image .col{
+       width: 100%;
+   }
+   .featured-image .text{
+       text-align: center;
+       padding: 12px;
+       height: 142px;
+   
+   }
+   .featured-image .text h5{
+       font-size: 20px;
+       font-family: 'Poppins SemiBold';
+       margin-left: -30px;
+   }
+   .featured-image .text p{
+       letter-spacing: 0.4px;
+       font-family: 'Poppins Bold';
+       color: #31b1e1;
+       margin-left: -31px;
+   }
+   .featured-image .text span{
+       text-decoration: line-through;
+       color: grey;
+       opacity: 0.8;
+   }
+   .featured-image .col{
+       flex: 1 0 24%;
+   }
+   .featured-brands {
+       background-color: white;
+       margin-top: 17vh;
+       margin-left: 225px;
+       width: 1499px;
+       z-index: 208;
+   }
+   .featured-brands .header{
+       text-align: center;
+       margin-left: -28px;
+   }
+   .featured-brands .header h5{
+       font-size: 30px;
+       font-family: 'Poppins SemiBold';
+       color: #025ca8;
+       margin-bottom: 0;
+   }
+   .featured-brands .header h1{
+       font-size: 50px;
+       margin-top: 5px;
+       font-family: 'Poppins SemiBold';
+       letter-spacing: 0.6px;
+   }
+   .featured-brands .Product-brands{
+       padding-top: 67px;
+       display: flex;
+       align-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+       row-gap: 23px;
+   }
+   .featured-brands .Product-brands .col{
+       flex: 1 0 20%;
+   }
+   
+   
+   .swiper-slide {
+       /* Center slide text vertically */
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: -webkit-flex;
+       display: flex;
+       -webkit-box-pack: center;
+       -ms-flex-pack: center;
+       -webkit-justify-content: center;
+       justify-content: center;
+       -webkit-box-align: center;
+       -ms-flex-align: center;
+       -webkit-align-items: center;
+       align-items: center;
+   }
+   .swiper-pagination{
+       padding-bottom: 7%;
+   }
+   .swiper-pagination > span{
+       width: 29px;
+       height: 9px;
+       border-radius: 26%;
+       background-color: #025ca8;
+   }
+   .swiper-slide:nth-child(1n) {
+       width: 38%;
+   }
+   .swiper-slide:nth-child(2n) {
+       width: 14%;
+   }
+   .swiper-slide:nth-child(3n) {
+       width: 38%;
+   }
+   .swiper-wrapper {
+       margin-left: 5%;
+       padding-bottom: 7%;
+   }
+   .testimonial {
+       margin-top: 21vh;
+       background-image: url('http://localhost/wordpress/wp-content/uploads/2022/03/background-testimonial.png');
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+   }
+   .testimonial .title{
+       text-align: center;
+       padding-top: 143px;
+   }
+   .testimonial .title h5{
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #025ca8;
+    font-family: 'Poppins SemiBold';
+    margin-top: 5px;
+   }
+   .testimonial .title h1{
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Poppins SemiBold';
+    letter-spacing: 1px;
+    margin-top: 8px;
+   }
+   .testimonial .profile{
+       display: flex;
+       align-content: center;
+       justify-content: center;
+       padding: 96px;
+       gap: 27px;
+       margin-left: 3px;
+       padding-bottom: 86px;
+   }
+   .testimonial .profile .card{
+            width: 473px;
+            padding: 29px;
+            height: 284px;
+   }
+   .testimonial .profile .card h1{
+        font-size: 26px;
+        font-family: 'Poppins Bold';
+        margin: 0;
+   }
+   .testimonial .profile .card h1 small{
+       font-size: 16px;
+       font-family: 'Poppins Medium';
+   }
+   .testimonial .profile .card h5{
+       font-size: 16px;
+       font-family: 'Poppins';
+       letter-spacing: 0.4px;
+   }
+   .testimonial .profile .content{
+       margin-top: 28px;
+       letter-spacing: 0.1px;
+       font-size: 16px;
+   }
+   .testimonial .profile .rating{
+       margin-top: 29px;
+       display: flex;
+       align-content: center;
+       color: #ffc601;
+   }
+   .testimonial .profile .card .avatar{
+       margin-right: 28px;
+       margin-top: 6px;
+   }
+   .testimonial .profile .avatar span{
+       margin-top: 23px;
+   }
+   
+   
+   .main-footer{
+       background-color: #025ca8;
+   }
+   .footer{
+       padding: 80px 214px;
+   
+   }
+   .footer .col-md-12{
+       align-items: center;
+       justify-content: flex-start;
+       column-gap: 0px;
+       row-gap: 135px;
+       display: flex;
+       flex: 1 0 20%;
+       flex-wrap: wrap;
+   }
+   .footer .item-content ul > li {
+    list-style: none;
+   }
+   .footer .item-content ul li > a{
+    color: #fff;
+    text-decoration: none;
+   }
+   .footer .item-content .about-Product-Categories li > a::before{
+    font-weight: 900;
+     content: "\2b";
+     font-family: "Font Awesome 5 Free";
+     font-size: 18px;
+     color: #fff;
+     margin-left: -30px;
+     margin-right: 14px;
+   }
+   .footer .col-md-12 .item{
+       width: 267px;
+       height: 200px;
+       color: #fff;
+       flex: 1 0 25%;
+   }
+   .footer .item .item-content{
+       margin-top: 27px;
+       margin-left: 11px;
+   }
+   .footer .item .item-content .about-footer{
+    padding-left: 0rem;
+   }
+   .footer .item .item-content .about-footer > li {
+    margin-bottom: 8px;
+   }
+   .footer .item .item-content >div{
+       margin-top: 9px;
+   }
+   .footer .item .item-content span{
+       margin-right: 15px;
+   }
+   .footer .item .item-content .about-Product-Categories{
+    margin-bottom: 0rem;
+   }
+   .footer .item .item-content .about-Product-Categories > li{
+    margin-bottom: 5px;
+   }
+
+ 
+   .footer .item h5{
+       margin-top: 2px;
+       margin-left: 10px;
+       font-family: 'Poppins';
+   }
+   .footer .item iframe{
+    margin-top: 5px;
+    padding-left: 18px;
+   }
+   .second-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 31px;
+    padding: 13px;
+    border: 1px solid #4e8dc2;
+    padding-bottom: 4px;
+}
+   .second-footer .left{
+       display: flex;
+       align-items: center;
+       color: #fff;
+       margin-left: 21.5%;
+   }
+   .second-footer .left .icon{
+    margin-left: -10px;
+   }
+   .second-footer .left h5{
+    font-size: 21px;
+    letter-spacing: 1px;
+    margin-top: -3px;
+    font-family: 'Poppins';
+    margin-left: 7px;
+   
+   }
+   .second-footer .icon ul{
+       display: flex;
+       align-items: center;
+       padding-left: 0rem;
+   }
+   .second-footer .icon ul > li{
+    list-style: none;
+   }
+   .second-footer .icon ul li >a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 24px;
+   }
+   /* .second-footer .left .icon > i{
+       margin-left: 24px;
+       font-size: 18px;
+       color: #fff;
+       margin-top: -8px;
+   } */
+   .second-footer .right{
+       display: flex;
+       align-items: center;
+       margin-left: 31%;
+   }
+   .second-footer .right h5{
+       font-size: 22px;
+       color: #fff;
+       font-family: 'Poppins Bold';
+       letter-spacing: 1px;
+   }
+   .second-footer .right button {
+       background-color: #31b1e1;
+       color: #fff;
+       margin-left: 36px;
+       padding: 11px;
+       width: 150px;
+       margin-top: -13px;
+   }
+   .third-footer{
+    padding-top: 21px;
+       padding-bottom: 15px;
+       display: flex;
+       align-items: center;
+   }
+   
+   .third-footer .left > p{
+    padding-left: 23%;
+    color: #fff;
+    font-size: 13px;
+    padding-top: 3px;
+    letter-spacing: 1px;
+   }
+   .third-footer .sitemap{
+        color: #fff;
+        margin-top: -15px;
+        padding-left: 22%;
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        font-size: 15px;
+   }
+   .third-footer .sitemap  > li{
+    list-style: none;
+   }
+   .third-footer .sitemap  li > a {
+    color: #fff;
+    text-decoration: none;
+   }
+   .third-footer .sitemap  li > a::after{
+       content: '|';
+       margin-left: 10px;
+       font-weight: bold;
+   }
+   .third-footer .right .payment {
+    padding-left: 25%;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+   }
+   .third-footer .right .payment > div {
+      padding-left: 5px;
+   }
+   
+   
+   }
+   @media screen and (max-width: 1200px) {
+       .navbar-first{
+           padding: 12px;
+       }
+       .navbar-first .left{
+           margin-left: 19px;
+       }
+        .navbar-first .right{
+           margin-right: 19px;
+        }
+        .navbar-second{
+           padding: 21px;
+        }
+        .navbar-second .navbar-brand {
+           margin-left: 0;
+        }
+        .navbar-second .navbar-collapse img {
+           padding-right: 17px;
+       }
+       .search .fa-search {
+           left: 218px;
+       }
+       .navbar-second .navbar-collapse ul  {
+           margin-left: 0;
+           width: 564px;
+        }
+        .search input {
+           width: 262px;
+        }
+        .navbar-second .navbar-collapse ul  {
+           margin-left: 0px;
+        }
+        .navbar-second .navbar-collapse{
+           font-size: 17px;
+           font-family: 'Poppins SemiBold';
+           margin-right: 17px;
+        }
+        .navbar-second .navbar-collapse ul > li  {
+            margin-left: 25px;
+        }
+        .banner {
+           padding: 70px 74px 71px;
+        }
+       
+        .banner .images {
+            position: relative;
+            width: 49%;
+        }
+        .banner .button-2{
+           margin-left: 12px;
+       }
+        .banner img{
+           padding-left: 0px;
+           width: 100%;
+        }
+        .banner h1{
+           font-size: 52px;
+        }
+        .banner p{
+            font-size: 18px;
+        }
+        .banner .images .thermal{
+           position: absolute;
+           top: 79px;
+           left: 248px;
+           width: 41%;
+           height: 72%;
+        }
+        .about{
+           padding: 118px 34px 151px;
+           margin-left: 20px;
+        }
+        .about .content{
+           margin-left: 42px;
+           margin-top: 0px;
+           margin-bottom: 0;
+        }
+        .featured-categories{
+           height: 475px;
+        }
+        .featured-categories .card{
+           height: 209px;
+       }
+        .featured-categories{
+           margin-top: -140px;
+           margin-left: 52px;
+           width: 1098px;
+        }
+        .featured-categories .card .sales-image{
+           width: 151px;
+           left: 171px;
+        }
+        .featured-categories .card .sales h1{
+           font-size: 18px;
+           width: 61%;
+        }
+        .featured-categories .card .sales-image .thermal-2{
+           margin-left: 46px;
+           width: 58%;
+       }
+      
+        .featured-categories .card .sales-image .Tracheostomy{
+           margin-left: 32px;
+            width: 70%;
+       }
+       .featured-categories .card  .Laryngeal{
+           width: 100%;
+           height: 156px;
+           margin-left: 8px;
+       }
+       .featured-categories .card .sales-image .Isolation{
+           margin-left: 36px;
+           margin-top: -18px;
+           width: 73%;
+       }
+       .products{
+           margin-left: 3.7%;
+           width: 1079px;
+       }
+       .featured-image{
+           column-gap: 18px;
+       }
+        .featured-image .image > img{
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+       }
+       .featured-brands{
+           margin-top: 9vh;
+           margin-left: 47px;
+           width: 1102px;
+       }
+       .featured-brands .Product-brands{
+           column-gap: 23px;
+       }
+       .featured-brands .Product-brands .image > img{
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+       }
+       .testimonial .profile .card{
+           height: 301px;
+           width: 386px;
+       }
+       .testimonial .profile .card .avatar {
+           margin-right: 36px;
+       }
+       .swiper-slide:nth-child(1n) {
+           width: 59%;
+       }
+       .swiper-slide:nth-child(2n) {
+           width: 10%;
+       }
+       .swiper-slide:nth-child(3n) {
+           width: 59%;
+       }
+       .footer{
+           padding: 75px 82px
+       }
+       .footer .col-md-12 .item{
+           flex: 1 0 50%;
+       }
+       .second-footer .left{
+           margin-left: 11.5%;
+       }
+       .second-footer .right{
+           margin-left: 17%;
+       }
+       .third-footer .left > p {
+           padding-left: 14.5%;
+       }
+       .third-footer .sitemap{
+           padding-left: 15%;
+       }
+       .third-footer .right .payment{
+           padding-left: 9%;
+       }
+       .third-footer {
+           display: flex;
+         align-items: center;
+       }
+   }
+   
+   @media screen and (max-width : 991px){
+       .navbar-first .left{
+           margin-left: 0px;
+       }
+       .navbar-first .right{
+           margin-right: 0px;
+       }
+       .navbar-first .right > div {
+           margin-right: 17px;
+       }
+       .navbar-first .right .icon {
+           margin-top: 3px;
+         margin-right: 12px;
+       }
+       .search .fa-search {
+           top: 17px;
+           left: 192px;
+       }
+       .search input {
+           height: 47px;
+           width: 231px;
+       }
+       .banner h1{
+           font-size: 37px;
+       }
+       .banner .button-2{
+           margin-left: 12px;
+       }
+       .banner .images .thermal {
+        position: absolute;
+        top: 79px;
+        left: 209px;
+        width: 37%;
+        height: 66%;
+    }
+       .banner p {
+      font-size: 16px;
+       }
+      .banner .button-group {
+       margin-top: 36px;
+      }
+      .banner .button-group > button{
+       width: 167px;
+      }
+      .about .image-about{
+       margin-top: 15%;
+      }
+      .featured-categories {
+       width: 873px;
+       margin-left: 48px;
+      }
+      .featured-categories .card .sales-image {
+       width: 103px;
+       left: 147px;
+      }
+      .featured-categories .card .sales-image .Isolation {
+       margin-left: 9px;
+       margin-top: -14px;
+       width: 100%;
+      }
+      .featured-categories .card .sales-image .Tracheostomy {
+       margin-left: 23px;
+       width: 83%;
+      }
+      .featured-categories .card .Laryngeal{
+       width: 100%;
+       height: 118px;
+       margin-left: 8px;
+      }
+      .products {
+       margin-left: 6.7%;
+       width: 850px;
+   }
+   .featured-brands {
+       margin-left: 6.8%;
+       width: 828px;
+   }
+   
+   .featured-brands .Product-brands .col{
+       flex: 1 0 25%;
+   }
+   .second-footer .right {
+       margin-left: 8%;
+   }
+   .third-footer .right .payment {
+       padding-left: 0%;
+       padding-right: 35px;
+   }
+   .third-footer .sitemap{
+       flex-wrap: wrap;
+   }
+   .main-footer .third-footer .left .sitemap > p{
+   font-size: 10px;
+   }
+   .second-footer .right h5 {
+       font-size: 19px;
+   }
+   .swiper-slide:nth-child(1n) {
+       width: 48%;
+   }
+   .swiper-slide:nth-child(2n) {
+       width: 45%;
+   }
+   .third-footer .sitemap{
+    gap: 3px;
+    font-size: 12px;
+   }
+}
+   @media screen and (max-width: 768px) {
+       .navbar-first .left span {
+           font-size: 19px;
+       }
+       .navbar-first .right {
+       margin-top: 8px;
+       }
+       .banner{
+           display: block;
+       }
+       .banner .button-group {
+           display: flex;
+       }
+       .banner .col-md-6 {
+           flex: 1 0 100%;
+           width: 100%;
+       }
+       .banner .images {
+           width: 100%;
+       }
+       .banner .button-2{
+           margin-left: 12px;
+       }
+       .banner .images .thermal {
+           position: absolute;
+           top: 114px;
+           left: 320px;
+           width: 34%;
+           height: 63%;
+       }
+       .banner .button-group > button {
+           width: 36%;
+           margin-bottom: 10px;
+       }
+        .banner .h1 {
+           font-size: 60px;
+       }
+       .banner p {
+           font-size: 25px;
+       }
+       .about{
+           display: block;
+       }
+       .about h5{
+           text-align: center;
+       }
+       .about h1{
+           text-align: center;
+       }
+       .about .image-about {
+           margin-top: 0%;
+           width: 100%;
+       }
+       .about .main-content{
+           width: 100%;
+           margin-top: 12%;
+       }
+       .about .content > div {
+           margin-top: 26px;
+           width: 90%;
+       }
+       .featured-categories {
+           width: 685px;
+       }
+       .featured-categories .col-md-4 {
+           flex: 1 0 50%;
+       }
+       .featured-categories .card .sales-image {
+           width: 129px;
+           left: 165px;
+       }
+       .products{
+           margin-top: 32%;
+           width: 650px;
+           margin-left: 8.7%;
+
+       }
+      .products .featured-image {
+       column-gap: 0px;
+   }
+   .featured-image .col {
+       flex: 1 0 50%;
+   }
+   .Product-brands .col {
+       flex: 1 0 50%;
+   }
+   .featured-brands .header {
+       text-align: center;
+   }
+   .featured-brands {
+       margin-left: 8.8%;
+       width: 650px;
+   }
+   .featured-brands .Product-brands {
+      column-gap: 0; 
+   }
+   .featured-brands .Product-brands .col {
+       flex: 1 0 50%;
+   }
+   .swiper-slide:nth-child(1n) {
+       width: 94%;
+   }
+   .swiper-slide:nth-child(2n) {
+       width: 100%;
+   }
+   .testimonial .profile .card {
+       width: 459px;
+   }
+   .second-footer {
+       display: block;
+   }
+   .second-footer .col-md-6 {
+       flex: 1 0 100%;
+       width: 100%;
+   }
+   .second-footer .left {
+       margin-left: 8.5%;
+   }
+   .second-footer .left h5{
+       font-size: 24px;
+   }
+   .second-footer .left .icon > i {
+       margin-left: 31px;
+       font-size: 23px;
+   }
+   .second-footer .right {
+       margin-top: 20px;
+   }
+   .second-footer .right h5 {
+       font-size: 25px;
+   }
+   .third-footer{
+       display: block;
+       align-items: center;
+   }
+   .third-footer .left{
+    padding-bottom: 17px ;
+   }
+   .third-footer .col-md-6{
+     flex: 1 0 100%;
+     width: 100%;     
+   }
+   .third-footer .left > p {
+       padding-left: 11.5%;
+       font-size: 20px;
+   }
+   .third-footer .sitemap {
+       padding-left: 11%;
+       font-size: 19px;
+   }
+   .third-footer .right .payment {
+       padding-left: 10%;
+       padding-right: 0px;
+   }
+      
+   }
+   @media screen and (max-width: 576px) {
+.navbar-second{
+    top: 0;
+}
+    .banner .button-group > button {
+    width: 44%;
+    margin-bottom: 0;
+    }
+    .banner h1{
+    font-size: 41px;
+    }
+    .banner p{
+    font-size: 17px;
+    }
+    
+    .banner .images .thermal {
+    position: absolute;
+    top: 78px;
+    left: 239px;
+    width: 30%;
+    height: 59%;
+}
+.about .content {
+    margin-left: 17px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.products .right {
+    margin-top: 12px;
+}
+.featured-brands {
+    margin-left: 13.8%;
+}
+.featured-categories {
+    width: 488px;
+}
+.featured-categories .col-md-4 {
+    flex: 1 0 100%;
+}
+.featured-categories .card .sales-image {
+    width: 144px;
+    left: 247px;
+}
+.featured-categories .card .sales h1 {
+    font-size: 24px;
+    width: 100%;
+}
+.featured-categories .card .sales-image .Isolation {
+    margin-left: 12px;
+    margin-top: -16px;
+    width: 84%;
+}
+.products {
+    margin-top: 163%;
+    width: 450px;
+    margin-left: 12%;
+}
+.featured-image .col {
+    flex: 1 0 100%;
+}
+.featured-brands {
+    width: 450px;
+}
+.featured-brands .Product-brands .col {
+    flex: 1 0 100%;
+}
+.testimonial .title h1 {
+    font-size: 39px;
+}
+.footer {
+    padding: 19px 82px;
+}
+.footer .col-md-12 {
+    display: block;
+}
+.footer .col-md-12 .item {
+    flex: 1 0 100%;
+    width: 100%;
+    margin-top: 79px;
+}
+.footer .item h5{
+    font-size: 28px;
+}
+.footer .item iframe {
+    margin-top: -104px;
+    padding-left: 11px;
+}
+.third-footer .sitemap {
+    font-size: 17px;
+}
+.swiper-slide:nth-child(1n) {
+    width: 92%;
+}
+.footer .item .item-content .about-Product-Categories2{
+margin-top: -24px;
+}
+}
